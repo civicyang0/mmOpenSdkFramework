@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'http://example.com'
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Your Company' => 'email@example.com' }
-  s.source           = { :git => "https://github.com/civicyang0/mmOpenSdkFramework.git", :tag => "0.1.0"}
+  s.source           = { :http => "http://ftp.yourserver.com/path/to/MinimaxOpenVoiceCallSDK.framework.zip"}
 
   s.vendored_frameworks = 'MinimaxOpenVoiceCallSDK.framework'
   
