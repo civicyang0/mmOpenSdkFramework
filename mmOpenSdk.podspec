@@ -4,14 +4,14 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'mmOpenSdk'
-  s.version          = '0.0.3'
+  s.version          = '0.0.5'
   s.summary          = 'mmOpenSdk temp'
   s.description      = 'test mmOpenSdk'
                        
   s.homepage         = 'http://example.com'
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Your Company' => 'email@example.com' }
-  s.source           = { :git => 'https://github.com/civicyang0/mmOpenSdkFramework.git', :tag => s.version.to_s }
+  s.source           = { :http => 'https://yesdesktop-web-beta.oss-cn-shenzhen.aliyuncs.com/upload/2024/07/23/1721737051609_657c3b8c.zip' }
 
   # s.vendored_frameworks = 'MinimaxOpenVoiceCallSDK.framework'
   
@@ -34,6 +34,6 @@ Pod::Spec.new do |s|
   s.dependency 'SwiftyJSON'
   s.dependency 'Moya'
   
-  #s.vendored_framework = "Frameworks/MinimaxOpenVoiceCallSDK.framework"
-    
+  s.vendored_framework = "MinimaxOpenVoiceCallSDK.framework"
+  s.static_framework = true
 end
